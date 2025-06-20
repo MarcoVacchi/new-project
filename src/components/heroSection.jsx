@@ -6,8 +6,8 @@ import ElegantShape from "./shape";
 
 export default function HeroSection({
     badge = "Design Collective",
-    title1 = "Elevate Your Digital Vision",
-    title2 = "Crafting Exceptional Websites",
+    title1 = "Elevate Your Digital Vision.",
+    title2 = "Siti web su misura, design innovativo.",
 }) {
     const fadeUpVariants = {
         hidden: { opacity: 0, y: 30 },
@@ -102,8 +102,7 @@ export default function HeroSection({
                         animate="visible"
                     >
                         <p className="text-2xl sm:text-lg md:text-xl text-primary/65 mb-8 leading-relaxed font-medium tracking-wide max-w-xl mx-auto px-4">
-                            Crafting exceptional digital experiences through innovative design
-                            and cutting-edge technology.
+                            Sviluppiamo esperienze digitali eccezionali grazie a design originale e tecnologia avanzata.
                         </p>
                     </motion.div>
                 </div>

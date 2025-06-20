@@ -65,10 +65,11 @@ function ElegantShape({
     );
 }
 
+
 function HeroGeometric({
     badge = "Design Collective",
-    title1 = "Elevate Your Digital Vision",
-    title2 = "Crafting Exceptional Websites",
+    title1 = "My digital projects.",
+    title2 = "Scopri come trasformiamo idee in realtà digitali efficaci e coinvolgenti.",
 }) {
     const fadeUpVariants = {
         hidden: { opacity: 0, y: 30 },
@@ -177,8 +178,7 @@ function HeroGeometric({
                         animate="visible"
                     >
                         <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
-                            Crafting exceptional digital experiences through
-                            innovative design and cutting-edge technology.
+                            Ogni progetto è unico, creato su misura per rispondere alle esigenze specifiche del cliente e garantire risultati concreti.
                         </p>
                     </motion.div>
                 </div>
