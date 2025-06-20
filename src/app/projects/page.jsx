@@ -1,7 +1,11 @@
 import React from 'react'
+import { HeroGeometric } from '@/components/projectSection'
 
 export default function page() {
     return (
-        <div>Projects</div>
+        <>
+            <HeroGeometric />
+            <div>Projects</div>
+        </>
     )
 }
