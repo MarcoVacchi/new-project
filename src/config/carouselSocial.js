@@ -1,0 +1,43 @@
+
+import {
+    SiSass,
+    SiNodedotjs,
+    SiWordpress,
+    SiTypescript,
+    SiTailwindcss,
+    SiBootstrap,
+    SiFramer,
+    SiReact,
+    SiNextdotjs,
+    SiVuedotjs,
+    SiNuxtdotjs,
+    SiMongodb,
+    SiPrisma,
+    SiLaravel,
+    SiGit,
+    SiGithub,
+    SiDigitalocean,
+    SiFigma,
+} from "react-icons/si";
+
+
+export const LogosCarousel = [
+    { name: "Bootstrap", icon: SiBootstrap, href: "https://getbootstrap.com/" },
+    { name: "Digitalocean", icon: SiDigitalocean, href: "https://www.digitalocean.com/" },
+    { name: "Framer Motion", icon: SiFramer, href: "https://www.framer.com/motion/" },
+    { name: "Git", icon: SiGit, href: "https://git-scm.com/" },
+    { name: "GitHub", icon: SiGithub, href: "https://github.com/" },
+    { name: "Laravel", icon: SiLaravel, href: "https://laravel.com/" },
+    { name: "MongoDB", icon: SiMongodb, href: "https://www.mongodb.com/" },
+    { name: "Next.js", icon: SiNextdotjs },
+    { name: "Node.js", icon: SiNodedotjs },
+    { name: "Nuxt.js", icon: SiNuxtdotjs },
+    { name: "Prisma", icon: SiPrisma },
+    { name: "React", icon: SiReact },
+    { name: "Sass", icon: SiSass },
+    { name: "TailwindCSS", icon: SiTailwindcss },
+    { name: "TypeScript", icon: SiTypescript },
+    { name: "Vue.js", icon: SiVuedotjs },
+    { name: "WordPress", icon: SiWordpress },
+    { name: "Figma", icon: SiFigma },
+];
