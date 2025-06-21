@@ -2,7 +2,7 @@ import "./globals.css";
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import Header from "@/components/header";
-
+import { Footer } from '@/components/footer';
 
 export const metadata = {
   title: "Create Next App",
@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
