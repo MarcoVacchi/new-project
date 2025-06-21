@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, CarouselContainer, CarouselSlide } from './carousel';
-import { LogosCarousel } from '@/config/carouselSocial';
+import { LogosCarousel } from '@/config/carouselApp';
 
 export default function ToolsCarousel() {
     return (
